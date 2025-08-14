@@ -1,0 +1,6 @@
+-> each react function render a single element 
+-> but they can render child element in to the parent element
+
+--> to write js inside html then we use second brace {}
+-> {new Date().getFullYear()} just like it 
+ 
