@@ -4,6 +4,8 @@ import Food from './UseOfComponent/Food.jsx'
 import Card from './CardComponents/Card.jsx'
 import Student from './UseOfProps/Student.jsx'
 import UserGreeting from './UseOfGreeting/UserGreeting.jsx'
+import List from './Lists/List.jsx'
+import ListOfPack from './Lists/ListOfPack.jsx'
 
 function App() {
   return(
@@ -22,8 +24,12 @@ function App() {
       <Student name = "Andu Bandu"/> */}
 
       {/* Use of props in function */}
+        {/* Using conditional rendaring */}
+      {/* <UserGreeting isLoggedIn={false} userName = "user" /> */}
 
-      <UserGreeting isLoggedIn={false} userName = "Faysal" />
+      <List />
+      {/* Uses all sort of rendering from sort to keep the data align */}
+      {/* <ListOfPack /> */}
 
     </>
   )
