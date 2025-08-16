@@ -30,3 +30,63 @@
  
   color: hsla(0, 59%, 15%, 0.31);
 }
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 9px;
+  max-width: 40%;
+}
+.student p{
+  margin: 0;
+}
+
+.logpage{
+  max-width: 20%;
+  border: 2px solid ;
+  margin-right: 30%;
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: inline-block;
+}
+
+
+.logTitle{
+  max-width: 400px;
+  border: 1px solid hsl(0, 78%, 32%);
+  border-radius: 5px;
+  text-align: center;
+   margin: 20px;
+  
+  padding: 10px;
+  display: inline-block;
+  
+}
+
+.userpass{
+  display: inline-block;
+}
+
+.userName{
+  display: inline-block;
+}
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 3em;
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+}
