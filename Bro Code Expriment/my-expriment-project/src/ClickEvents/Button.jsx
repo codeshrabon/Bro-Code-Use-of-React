@@ -9,7 +9,7 @@ function Button(){
     // count how many time the button has been clicked 
     let count = 0;
 
-    const handleChicl3 = (name) => {
+    const handleClick3 = (name) => {
         if(count < 3){
             count++;
             console.log(`${name} you clicked me ${count} times`);
@@ -19,12 +19,23 @@ function Button(){
         }
     }
 
+    // event parameter 
+    /* const handleClick4 = (e) => console.log(e); */
+    // using the textxontent inside the e parameter
+    const handleClick4 = (e) => e.target.textContent= "OUCH";
+    
+
 
     return (
         <>
-        <button onClick={handleClick}>Click me</button>
-        <button onClick={() => handleClick2("Faysal")}>Click me and watch</button>
-        <button onClick={() => handleChicl3("Faysal")}>Click and see</button>
+        <button onClick={handleClick}>Click me</button><br />
+        <button onClick={() => handleClick2("Faysal")}>Click me and watch</button><br />
+        <button onClick={() => handleClick3("Faysal")}>Click and see</button><br />
+        <button onClick={(e) => handleClick4(e)}>Event handler one click</button><br />
+        <button onDoubleClick={(e) => handleClick4(e)}>Event handler doble click</button>
+            {/* onClick is for one time click 
+                if we use onDoubleClick we need to press two time
+            */}
         </>
     );
 
