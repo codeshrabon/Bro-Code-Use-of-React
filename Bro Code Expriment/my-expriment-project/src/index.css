@@ -90,3 +90,29 @@
   padding: 10px;
   margin: 0;
 }
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  
+  color: hsl(72, 39%, 27%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 2.5px solid;
+  border-radius: 5px;
+  background-color: hsl(205, 50%, 81%);
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(159, 96%, 18%);
+  text-align: center;
+  margin: 0;
+
+}
+.list-items li :hover{
+  color: hsl(208, 73%, 46%);
+  cursor: pointer;
+
+}
