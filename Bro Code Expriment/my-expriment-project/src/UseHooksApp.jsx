@@ -9,6 +9,7 @@
  */
 
 
+import CounterComponent from "./UseOfHooks/CounterComponent"
 import MyComponent from "./UseOfHooks/MyComponent"
 
 
@@ -16,7 +17,8 @@ function UseHooksApp(){
 
     return(
         <>
-        <MyComponent /> 
+        <CounterComponent />
+        {/* <MyComponent />  */}
         </>
     )
 

@@ -116,3 +116,35 @@
   cursor: pointer;
 
 }
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid ;
+  border-radius: 10px;
+  
+}
+
+.count-display{
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button{
+  width: 100px;
+  height: 30px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-right: 5px;
+  background-color: hsla(180, 59%, 46%, 0.803);
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.counter-button:hover{
+  background-color: hsla(180, 59%, 30%, 0.803);
+}
