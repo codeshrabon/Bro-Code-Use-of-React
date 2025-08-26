@@ -122,6 +122,7 @@
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid ;
   border-radius: 10px;
+  background-color: bisque;
   
 }
 
@@ -129,6 +130,7 @@
   font-size: 5em;
   margin-top: 0;
   margin-bottom: 50px;
+  color: hsla(94, 84%, 40%, 0.66);
 }
 
 .counter-button{
