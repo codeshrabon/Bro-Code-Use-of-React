@@ -14,22 +14,25 @@
  */
 
 
+import ColorPicker from "./UseOfHooks/ColorPicker"
 import CounterComponent from "./UseOfHooks/CounterComponent"
 import MyComponent from "./UseOfHooks/MyComponent"
 import OnlineCartSystem from "./UseOfHooks/OnlineCartSystem"
+
 
 
 function UseHooksApp(){
 
     return(
         <>
-
+        {/* using useState as a hook to create function that set color */}
+        <ColorPicker />
         {/* this is use on onClick function to see the value changes in real time  */}
-        <OnlineCartSystem />
+        {/* <OnlineCartSystem /> */}
 
         {/* we use hooks to implement in different section with out defining extra component  */}
         {/* <CounterComponent /> */}
-        
+
         {/* here we show how we use hooks in different opinion */}
         {/* <MyComponent />  */}
         </>
