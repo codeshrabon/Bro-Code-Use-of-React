@@ -18,6 +18,7 @@ import ColorPicker from "./UseOfHooks/ColorPicker"
 import CounterComponent from "./UseOfHooks/CounterComponent"
 import MyComponent from "./UseOfHooks/MyComponent"
 import OnlineCartSystem from "./UseOfHooks/OnlineCartSystem"
+import UpdateArrayInState from "./UseOfHooks/UpdateArrayInState"
 import UpdateObjects from "./UseOfHooks/UpdateObjects"
 
 
@@ -26,8 +27,10 @@ function UseHooksApp(){
 
     return(
         <>
+        {/* we will update array in state */}
+        <UpdateArrayInState /> 
         {/* using this function to see update objects in state */}
-        <UpdateObjects /> 
+        {/* <UpdateObjects />  */}
         {/* using useState as a hook to create function that set color */}
         {/* <ColorPicker /> */}
         {/* this is use on onClick function to see the value changes in real time  */}
