@@ -19,6 +19,7 @@ import CounterComponent from "./UseOfHooks/CounterComponent"
 import MyComponent from "./UseOfHooks/MyComponent"
 import OnlineCartSystem from "./UseOfHooks/OnlineCartSystem"
 import UpdateArrayInState from "./UseOfHooks/UpdateArrayInState"
+import UpdateArrayOfObjects from "./UseOfHooks/UpdateArrayOfObjects"
 import UpdateObjects from "./UseOfHooks/UpdateObjects"
 
 
@@ -27,8 +28,10 @@ function UseHooksApp(){
 
     return(
         <>
+        {/* we are updating array of objects in state */}
+        <UpdateArrayOfObjects /> 
         {/* we will update array in state */}
-        <UpdateArrayInState /> 
+        {/* <UpdateArrayInState />  */}
         {/* using this function to see update objects in state */}
         {/* <UpdateObjects />  */}
         {/* using useState as a hook to create function that set color */}
